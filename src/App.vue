@@ -4,6 +4,7 @@
       v-if="statusMatch === 'default'"
       @onStart="onHandleBeforeStart($event)"
     />
+
     <interact-screen
       v-if="statusMatch === 'match'"
       :cardsContext="settings.cardsContext"
